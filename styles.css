@@ -14,6 +14,17 @@
     display: block;
 }
 
+.imagen-carusel {
+    position: relative; 
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5%;
+    display: block;
+    margin-left: 20%;
+}
+
 .titulo-superior {
     text-align: center;
     position: absolute; 
@@ -51,4 +62,5 @@
 .cartas{
  text-align: center;
  align-items: center;
+ padding: 3%;
 }
