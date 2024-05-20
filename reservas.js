@@ -11,3 +11,7 @@ function mailto(){
     cuerpoCorreo += "Presupuesto: $" + presupuesto + "\n";
     window.location.href = "mailto:codeninjas827@gmali.com?subject=Solicitud de Viaje&body=" + encodeURIComponent(cuerpoCorreo);
 }
+
+function volver(){
+    window.open("index.html")
+}

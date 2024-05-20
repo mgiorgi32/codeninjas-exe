@@ -64,3 +64,6 @@
  align-items: center;
  padding: 3%;
 }
+.botonsin:hover{
+    background-color: aquamarine;
+}
