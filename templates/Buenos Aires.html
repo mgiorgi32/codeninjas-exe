@@ -9,9 +9,12 @@
   <script src="reservas.js" type="TEXT/javascript"></script>
   <title>Buenos Aires</title>
   <link rel="icon" href="img/avion.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<header>
-    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+
+<body class="pagina">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark" style="background-color: #e3f2fd;">
     <div class="container-fluid">
         <a class="navbar-brand botonsin" href="index.html">CodeNinjas viajes</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="colapse" data-bs-target="navbarNavDropdown" aria-controls="navbarNavDropdown"aria-expanded="false" aria-label="Toggle navigation">
@@ -23,72 +26,100 @@
                 <a class="nav-link active botonsin" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link botonsin" href="Reserva.html">Contacto</a>
+                <a class="nav-link botonsin text-white" href="Reserva.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link botonsin" href="https://www.despegar.com.ar/" target="_blank">Ir a despegar</a>
+                <a class="nav-link botonsin text-white" href="https://www.despegar.com.ar/" target="_blank">Ir a despegar</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle botonsin" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle botonsin text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Mas lugares
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item botonsin" href="Buenos Aires.html">Cordoba</a></li>
+                  <li><a class="dropdown-item botonsin" href="cordoba.html">Cordoba</a></li>
                   <li><a class="dropdown-item botonsin" href="SantaCruz.html">Santa Cruz</a></li>
                   <li><a class="dropdown-item botonsin" href="Mendoza.html">Mendoza</a></li>
                 </ul>
               </li>
             </ul>
           </div>
+        </div>
+      </nav>
+    </header>
+  <main>
+    <section>
+      <div class="principal principal-ba">
+        <div class="principal-cont">
+            <h1>Buenos Aires</h1>
+            <p>Paquete Turistico, Pasajes y Hotel</p>
+        </div>
+      </div>
+    </section>
+<div class="container">
+  <section class="row justify-content-center">
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card mb-3">
+        <img src="img/Buenos Aires/teatro colon.jpg" class="card-img-top cartel" alt="Teatro Colon">
+        <div class="card-body">
+          <h5 class="card-title centrado text-white">Teatro Colon</h5>
+          <p class="card-text">Descubre el Teatro Colón con nuestras visitas guiadas personalizadas, detalladas y exclusivas.</p>
+          <a href="Reserva.html" class="btn btn-primary botonsin">Reserva aqui</a>
+        </div>
+      </div>
     </div>
-    </nav>
-</header>
-<body class="pagina">
-    <section class="container">
-        <img src="img/Buenos Aires/portadaBsAs.jpg" class="imagen-portada img-fluid" alt="BuenosAires">
-    </section>
-    <section class="row justify-content-center">
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card mb-3">
-          <img src="img/Buenos Aires/teatro colon.jpg" class="card-img-top" alt="Teatro Colon">
-          <div class="card-body">
-            <h5 class="card-title centrado">Teatro Colon</h5>
-            <p class="card-text">escubri el teatron Colon con nuestras visitas guiadas</p>
-            <a href="Reserva.html" class="btn btn-primary botonsin">Reserva aqui</a>
-          </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card mb-3">
+        <img src="img/Buenos Aires/san telmo.jpg" class="card-img-top cartel" alt="San Telmo">
+        <div class="card-body">
+          <h5 class="card-title centrado text-white">San Telmo</h5>
+          <p class="card-text">Descubri las maravillas de este emblemático barrio con tango arte y experiencias culinarias</p>
+          <a href="Reserva.html" class="btn btn-primary botonsin">Reserva aqui</a>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card mb-3">
-          <img src="img/Buenos Aires/san telmo.jpg" class="card-img-top" alt="San Telmo">
-          <div class="card-body">
-            <h5 class="card-title centrado">San Telmo</h5>
-            <p class="card-text">Descubri las maravillas de este emblemático barrio con tango arte y experiencias culinarias</p>
-            <a href="Reserva.html" class="btn btn-primary botonsin">Reserva aqui</a>
-          </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card mb-3">
+        <img src="img/Buenos Aires/paseo en tigre.jpg" class="card-img-top cartel" alt="Tigre">
+        <div class="card-body">
+          <h5 class="card-title centrado text-white">Paseo en Catamaran</h5>
+          <p class="card-text">Recorremos Tigre en Catamarán con un guía turístico experto y apasionado</p>
+          <a href="Reserva.html" class="btn btn-primary botonsin">Reserva aqui</a>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card mb-3">
-          <img src="img/Buenos Aires/paseo en tigre.jpg" class="card-img-top" alt="Tigre">
-          <div class="card-body">
-            <h5 class="card-title centrado">Paseo en Catamaran</h5>
-            <p class="card-text">Recorremos Tigre en Catamaran con un guia turistico</p>
-            <a href="Reserva.html" class="btn btn-primary botonsin">Reserva aqui</a>
-          </div>
-        </div>
+    </div>
+  </section>
+
+</div>
+  
+  </main>
+  <footer class="footer">
+    <div class="footer-ubi">
+      <p class="footer-titulo">Ubicacion</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.0327099427747!2d-58.5189941105202!3d-34.60085284330573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7c8c1ae3637%3A0xead1f615d64cc586!2sSegurola%204310%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1719769358189!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="footer-cont">
+      <p class="footer-cont-tit footer-titulo">Contacto</p>
+      <div class="footer-cont-link">
+        <a href="mailto:codeninjas827@gmail.com"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>Envianos un Mail!</a>
+        <a href="https://wa.me/15551234567?text=Estoy%20interesado%20con%el%viaje" target="_blank" ><i class="fa-brands fa-square-whatsapp" style="color: #fafcff;"></i> Envianos un Whatsapp!</a>
+        
       </div>
-    </section>
+      
+    </div>
+    <div class="footer-red">
+      <p class="footer-cont-tit footer-titulo">Redes</p>
+      <ul type="none" class="footer-red-a">
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-x-twitter" style="color: #ffffff;"></i></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-der">
+      <p class="footer-cont-tit mb-0">&copy; 2024. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+    
 </body>
-<footer class="footer-pag">
-  <p>Contacto: <a href="mailto:codeninjas827@gmail.com">codeninjas827@gmail.com</a></p>
-  <p>Teléfono: +123456789</p>
-  <p>Síguenos en redes sociales:</p>
-  <ul type="none" class="redes-sociales">
-      <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-      <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
-      <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-  </ul>
-  <p>&copy; 2024. Todos los derechos reservados.</p>
-</footer>
+
 </html>

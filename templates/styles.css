@@ -1,17 +1,51 @@
-.centrado{
-    text-align: center;
-    text-decoration: underline;
-    padding: 5px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    font-family: montserrat;
+}
+.nav-link botonsink{
+    color: #fff;
 }
 
-.imagen-portada {
-    position: relative; 
+.centrado{
+    text-align: center;
+    font-weight: bold;
+    padding: 5px; 
+}
+.principal-santa{
+    background-image: url(https://uhdwallpapers.org/uploads/converted/18/08/01/perito-moreno-glacier-picture-2880x1620_45649-mm-90.webp);
+}
+.principal-ba{
+    background-image: url(https://wallpapercave.com/wp/wp1878475.jpg);
+}
+.principal-mendo{
+    background-image: url(https://wallpapercave.com/wp/wp3119452.jpg);
+}
+.principal-cor{
+    background-image: url(https://c0.wallpaperflare.com/path/631/387/741/argentina-la-cumbrecita-sky-clouds-01acf3ffa95711baa43b696aff6f6777.jpg);
+}
+.principal{
+    position: relative;
+    z-index: 2;
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    padding: 10px;
-    border-radius: 5%;
-    display: block;
+    height: 92vh;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+
+}.principal-cont{
+    position: relative;
+    z-index: 4;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(transparent,#111c);
+    padding-top: 200px;
+    text-align: center;
+    color: #fff;
+
+}
+.portada{
+    height: 80vh;
 }
 
 .imagen-carusel {
@@ -43,27 +77,147 @@
 }
 
 .pagina{
-    background-color:rgb(213, 244, 255);
+    background-color:rgba(8, 57, 88, 0.938);
 }
-
-.footer-img{
-    width: 10px;
-    height: 10px;
-    
-}
-
 .footer-pag{
     background-color: rgb(50, 49, 49);
     text-align: center;
     color: white;
     padding: auto;
 }
+.footer{
+    background-color: rgb(50, 49, 49);
+    color: #fffd;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 44vh;
+    justify-content: space-around;
+    padding: 10px;
+} 
+.footer-titulo{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.footer-ubi{
+    box-sizing: border-box;
+    border-right: 1px solid #bbb9;
+    width: 30%;
+    height: 80%;
+    text-align: center;
+} .footer-ubi iframe{
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 80%;
+    height: 70%;
+    box-shadow: 0 0 4px 0 white;
+}
+.footer-cont{
+    width: 30%;
+    height: 80%;
+    
+    } .footer-cont-tit{
+        text-align: center;
+        }
+    .footer-cont-link{
+        padding-left: 5vw;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: safe; 
+    } .footer-cont-link p{
+        width: 80%;
+    }.footer-cont-link i{
+        font-size: 2em;
+        padding-right: 10px;
+    }.footer-cont-link a{
+        text-decoration: none;
+        color: #fff;
+    }
+.footer-red{
+    width: 30%;
+    height: 80%;
+    border-left: 1px solid #bbb9;
+    
+} 
+.footer-red-a{
+        text-align: center;
+        height: 50%;
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+}
+.footer-red-a i{
+    font-size: 3em;
+    text-shadow: 1px white; 
+    padding: 0 20px;
+}
 
+.footer-der{
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
 .cartas{
- text-align: center;
- align-items: center;
- padding: 3%;
+    text-align: center;
+    align-items: center;
+    padding: 3%;
 }
 .botonsin:hover{
     background-color: aquamarine;
+}
+.card-body{
+    background-color: rgb(50, 49, 49);
+    color: #fff;
+}.card-text{
+    color: #fff;
+    text-align: center;
+}.card-title{
+    color: #fff;
+}
+.card-body > a{
+    display: block;
+    width: 150px;
+    margin: auto;
+    transition: 1s;
+}
+.card-body > a:hover{
+    background-color: #fff;
+    border: 1px solid #0d9ad0;
+    color: #0d9ad0;
+    font-weight: bold;
+}
+.cartel{
+    height: 30vh;
+}
+
+@media screen and (max-width: 990px){
+    .footer{
+        height: 50vh;
+    }
+    .cartel{
+        height: 50vh;
+    }
+    .footer-red-a { 
+        flex-wrap: wrap;
+    }
+    .footer-cont-link i{
+        display: block;
+    }
+}
+@media screen and (max-width: 570px){
+    .footer{
+        height: 60vh;
+    }
+    .cartel{
+        height: 50vh;
+    }
+    .footer-red-a { 
+        flex-wrap: wrap;
+    }
+    .footer-cont-link i{
+        display: block;
+    }
 }

@@ -2,56 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css" type="TEXT/css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script src="reservas.js" type="TEXT/javascript"></script>
-  <title>Inicio</title>
-  <link rel="icon" href="img/avion.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="TEXT/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="cordoba.js" type="TEXT/javascript"></script>
+    <title>Inicio</title>
+    <link rel="icon" href="img/avion.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<header>
-  <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
-    <div class="container-fluid">
-      <a class="navbar-brand botonsin" href="index.html">CodeNinjas viajes</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active botonsin" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link botonsin" href="Reserva.html">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link botonsin" href="https://www.despegar.com.ar/" target="_blank">Ir a despegar</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle botonsin" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Mas lugares
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item botonsin" href="Buenos Aires.html">Buenos Aires</a></li>
-              <li><a class="dropdown-item botonsin" href="SantaCruz.html">Santa Cruz</a></li>
-              <li><a class="dropdown-item botonsin" href="Mendoza.html">Mendoza</a></li>
-              <li><a class="dropdown-item botonsin" href="cordoba.html">Cordoba</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link botonsin" href="/login">Login</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+
 <body class="pagina">
-  <!-- Contenido de la página aquí -->
-  <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand botonsin" href="index.html">CodeNinjas viajes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active botonsin" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link botonsin text-white" href="Reserva.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link botonsin text-white" href="https://www.despegar.com.ar/" target="_blank">Ir a despegar</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle botonsin text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mas lugares
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item botonsin" href="Buenos Aires.html">Buenos Aires</a></li>
+                    <li><a class="dropdown-item botonsin" href="SantaCruz.html">Santa Cruz</a></li>
+                    <li><a class="dropdown-item botonsin" href="Mendoza.html">Mendoza</a></li>
+                    <li><a class="dropdown-item botonsin" href="cordoba.html">Cordoba</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+  </header>
+
+  <div id="carouselExampleCaptions" class="carousel slide container-fluid" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -60,28 +57,28 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active imagen-carusel">
-        <img src="img/inicio/BuenosAires.jpeg" class="d-block w-100" alt="Buenos Aires">
+        <img src="img/inicio/BuenosAires.jpeg" class="d-block w-100 portada" alt="Buenos Aires">
         <div class="carousel-caption d-none d-md-block">
           <h5>Buenos Aires</h5>
-          <p>Cosmopolita, tango, arquitectura ecléctica y pasión futbolera.</p>
+          <p id="titulaso">Cosmopolita, tango, arquitectura ecléctica y pasión futbolera.</p>
         </div>
       </div>
       <div class="carousel-item imagen-carusel">
-        <img src="img/inicio/Mendoza.jpg" class="d-block w-100" alt="Mendoza">
+        <img src="img/inicio/Mendoza.jpg" class="d-block w-100 portada" alt="Mendoza">
         <div class="carousel-caption d-none d-md-block">
           <h5>Mendoza</h5>
           <p> Viñedos, montañas, vino exquisito y aventuras al aire libre.</p>
         </div>
       </div>
       <div class="carousel-item imagen-carusel">
-        <img src="img/inicio/Cordoba.webp" class="d-block w-100" alt="Cordoba">
+        <img src="img/inicio/Cordoba.webp" class="d-block w-100 portada" alt="Cordoba">
         <div class="carousel-caption d-none d-md-block">
           <h5>Cordoba</h5>
           <p>Encanto colonial, sierras majestuosas y cultura vibrante.</p>
         </div>
       </div>
       <div class="carousel-item imagen-carusel">
-        <img src="img/inicio/SantaCruz.webp" class="d-block w-100" alt="Santa Cruz">
+        <img src="img/inicio/SantaCruz.webp" class="d-block w-100 portada" alt="Santa Cruz">
         <div class="carousel-caption d-none d-md-block">
           <h5>Santa Cruz</h5>
           <p>Glaciares, naturaleza salvaje y paisajes vírgenes en la Patagonia argentina.</p>
@@ -100,75 +97,91 @@
   <section class="d-flex flex-wrap justify-content-center container cards">
     <div class="col-lg-4 col-md-6 col-sm-12 cartas">
       <div class="card mb-3">
-        <img src="img/inicio/bsas2.jpg" class="card-img-top" alt="Buenos Aires">
+        <img src="img/inicio/bsas2.jpg" class="card-img-top cartel" alt="Buenos Aires">
         <div class="card-body">
-          <h5 class="card-title centrado">Buenos Aires</h5>
-          <p class="card-text">Descubre Buenos Aires, una vibrante mezcla de cultura, historia y vida nocturna, donde cada esquina cuenta una historia única y apasionante.</p>
+          <h5 class="card-title centrado text-white">Buenos Aires</h5>
+          <p class="card-text ">Descubre Buenos Aires, una vibrante mezcla de cultura, historia y vida nocturna, donde cada esquina cuenta una historia única y apasionante</p>
           <a href="Buenos Aires.html" class="btn btn-primary botonsin">Ingrese aqui</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12 cartas">
       <div class="card mb-3">
-        <img src="img/inicio/contacto.png" class="card-img-top" alt="Contacto">
+        <img src="img/inicio/contacto.png" class="card-img-top cartel" alt="Contacto">
         <div class="card-body">
-          <h5 class="card-title centrado">Contacto</h5>
-          <p class="card-text">¿Tienes preguntas, comentarios o simplemente quieres decir hola? Estamos aquí para escucharte. Completa el formulario de contacto a continuación y nos pondremos en contacto contigo lo antes posible.</p>
+          <h5 class="card-title centrado text-white">Contacto</h5>
+          <p class="card-text">¿Tienes dudas, comentarios o solo quieres saludar? Estamos aquí para escucharte. Completa el formulario de contacto abajo y te contactaremos pronto</p>
           <a href="Reserva.html" class="btn btn-primary botonsin">Contactanos!!!</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12 cartas">
       <div class="card mb-3">
-        <img src="img/inicio/Mendoza2.jpg" class="card-img-top" alt="Mendoza">
+        <img src="img/inicio/Mendoza2.jpg" class="card-img-top cartel" alt="Mendoza">
         <div class="card-body">
-          <h5 class="card-title centrado">Mendoza</h5>
-          <p class="card-text">Explora Mendoza, un paraíso vinícola rodeado de majestuosas montañas, donde cada sorbo de vino revela el alma de Argentina.</p>
+          <h5 class="card-title centrado text-white">Mendoza</h5>
+          <p class="card-text">Explora Mendoza, un increíble paraíso vinícola rodeado de majestuosas montañas, donde cada trago de vino revela el alma de Argentina</p>
           <a href="Mendoza.html" class="btn btn-primary botonsin" >Ingrese aqui</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12 cartas">
       <div class="card mb-3">
-        <img src="img/inicio/cordoba2.jpg" class="card-img-top" alt="Cordoba">
+        <img src="img/inicio/cordoba2.jpg" class="card-img-top cartel" alt="Cordoba">
         <div class="card-body">
-          <h5 class="card-title centrado">Cordoba</h5>
-          <p class="card-text">Vive Córdoba, donde la rica herencia colonial se encuentra con paisajes serranos impresionantes, ofreciendo una experiencia auténtica y vibrante en cada rincón.</p>
+          <h5 class="card-title centrado text-white">Cordoba</h5>
+          <p class="card-text">Vive Córdoba, la rica herencia colonial junto a paisajes serranos impresionantes, para una experiencia auténtica y vibrante en cada rincón</p>
           <a href="cordoba.html" class="btn btn-primary botonsin">Ingrese aqui</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12 cartas">
       <div class="card mb-3">
-        <img src="img/inicio/despegar.jpg" class="card-img-top" alt="Despegar">
+        <img src="img/inicio/despegar.jpg" class="card-img-top cartel" alt="Despegar">
         <div class="card-body">
-          <h5 class="card-title centrado">Despegar</h5>
-          <p class="card-text">Viaja con Despegar.com, tu aliado para descubrir el mundo con las mejores ofertas, facilidad de reserva y una experiencia de viaje sin complicaciones.</p>
+          <h5 class="card-title centrado text-white">Despegar</h5>
+          <p class="card-text">Viaja con Despegar.com, tu aliado para descubrir el mundo con las mejores ofertas, facilidad de reserva y una experiencia de viaje sin complicaciones</p>
           <a href="https://www.despegar.com.ar/" class="btn btn-primary botonsin">Visita la pagina</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12 cartas">
       <div class="card mb-3">
-        <img src="img/inicio/santacruz2.jpg" class="card-img-top" alt="Santa Cruz">
+        <img src="img/inicio/santacruz2.jpg" class="card-img-top cartel" alt="Santa Cruz">
         <div class="card-body">
-          <h5 class="card-title centrado">Santa Cruz</h5>
-          <p class="card-text">Descubre Santa Cruz, un destino de paisajes épicos y naturaleza indómita, donde los glaciares y la vida salvaje te dejan sin aliento.</p>
+          <h5 class="card-title centrado text-white">Santa Cruz</h5>
+          <p class="card-text">Descubre Santa Cruz, paisajes épicos y naturaleza indómita, donde los majestuosos glaciares y la vida salvaje te dejan sin aliento</p>
           <a href="SantaCruz.html" class="btn btn-primary botonsin">Ingrese aqui</a>
         </div>
       </div>
     </div>
   </section>  
-  <footer class="footer-pag">
-    <p>Contacto: <a href="mailto:codeninjas827@gmail.com">codeninjas827@gmail.com</a></p>
-    <p>Teléfono: +123456789</p>
-    <p>Síguenos en redes sociales:</p>
-    <ul type="none" class="redes-sociales">
-        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
-        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-    </ul>
-    <p>&copy; 2024. Todos los derechos reservados.</p>
+  <footer class="footer">
+    <div class="footer-ubi">
+      <p class="footer-titulo">Ubicacion</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.0327099427747!2d-58.5189941105202!3d-34.60085284330573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7c8c1ae3637%3A0xead1f615d64cc586!2sSegurola%204310%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1719769358189!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="footer-cont">
+      <p class="footer-cont-tit footer-titulo">Contacto</p>
+      <div class="footer-cont-link">
+        <a href="mailto:codeninjas827@gmail.com"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>Envianos un Mail!</a>
+        <a href="https://wa.me/15551234567?text=Estoy%20interesado%20con%el%viaje" target="_blank" ><i class="fa-brands fa-square-whatsapp" style="color: #fafcff;"></i> Envianos un Whatsapp!</a>
+        
+      </div>
+      
+    </div>
+    <div class="footer-red">
+      <p class="footer-cont-tit footer-titulo">Redes</p>
+      <ul type="none" class="footer-red-a">
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-x-twitter" style="color: #ffffff;"></i></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-der">
+      <p class="footer-cont-tit mb-0">&copy; 2024. Todos los derechos reservados.</p>
+    </div>
   </footer>
 </body>
 </html>
