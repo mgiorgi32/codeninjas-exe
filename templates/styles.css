@@ -72,9 +72,7 @@
     padding: 10px 20px; 
 }
 
-.form-destino{
-    background-color: rgb(193, 188, 188);
-}
+
 
 .pagina{
     background-color:rgba(8, 57, 88, 0.938);
@@ -189,9 +187,70 @@
     color: #0d9ad0;
     font-weight: bold;
 }
+.botones >button:hover{
+    background-color: #fff;
+    border: 1px solid #0d9ad0;
+    color: #0d9ad0;
+    font-weight: bold;
+}
 .cartel{
     height: 30vh;
 }
+#titulo-form{
+    height: 2em;
+}
+
+.form-destino{  
+    color: #fffb;
+    border-radius: 10px;
+}.form-destino form{
+    height: 40vh;
+}
+.reserva-principal{
+    background-color: rgb(50, 49, 49);
+    color: #fffb;
+    border-radius: 10px;
+    height: 90vh;
+}
+.reserva-row{
+    justify-content: space-evenly;
+}
+.reserva{
+    border-radius: 10px;
+    background-image: url(https://img.freepik.com/fotos-premium/turistas-felices-exploran-lugares-interes-nuevo-concepto-viaje-region_892345-1549.jpg?w=740);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 5vh;        
+}
+.reserva-encima{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #1119;
+    
+}
+.reserva-data{
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(transparent,#1119);
+    text-align: center;
+    padding-top: 5vh;
+    font-weight: bold;
+}
+#reserva-data-texto{
+    margin-top: 60%;
+    font-weight: bold;
+}
+
+#form-tit{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
 
 @media screen and (max-width: 990px){
     .footer{

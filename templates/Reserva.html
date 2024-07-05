@@ -12,65 +12,84 @@
     <link rel="icon" href="img/avion.png">
 </head>
 <body class="pagina">
-<section class="row justify-content-center form-destino">
-    <form class="row g-3 needs-validation" novalidate>
-      <div class="col-md-12 position-relative">
-        <label for="validationTooltip01" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="validationTooltip01" required name="Nombre">
-        <div class="valid-tooltip">
-          Excelente!
+  <div class="container reserva-principal my-4">
+    <div class="row reserva-row">
+      <div class="col-12 col-sm-5 p-0">
+        <div class="reserva">
+          <div class="reserva-encima">
+            <div class="container reserva-data">
+              <h1>Disfrute su Viaje</h1>
+              <p id="reserva-data-texto">¡Explore nuevos lugares, conozca gente fascinante y viva aventuras inolvidables en su viaje!</p>
+            </div>
         </div>
-      </div>
-      <div class="col-md-12 position-relative">
-        <label for="validationTooltip02" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="validationTooltip02" required name="Apellido">
-        <div class="valid-tooltip">
-          Excelente!
         </div>
+          
       </div>
-      <div class="col-md-12 position-relative">
-        <label for="inputEmail4" class="form-label">Email</label>
-        <div class="input-group has-validation">
-          <span class="input-group-text" id="inputEmail4">@</span>
-          <input type="email" name="Email" class="form-control" id="inputEmail4" aria-describedby="inputEmail4" required>
-          <div class="invalid-tooltip">
-            Ingrese un email.
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12 position-relative">
-        <label for="validationTooltip04" class="form-label">Ingrese el destino deseado</label>
-        <select class="form-select" id="validationTooltip04" required name="Destino">
-          <option selected disabled value="">...</option>
-          <option>Buenos Aires</option>
-          <option>Cordoba</option>
-          <option>Santa Cruz</option>
-          <option>Mendoza</option>
-        </select>
-        <div class="invalid-tooltip">
-          Ingrese un destino valido.
-        </div>
-      </div>
-      <div class="col-md-12 position-relative">
-        <label for="validationTooltip05" class="form-label">Ingrese su presupuesto</label>
-        <div class="input-group has-validation">
-          <span class="input-group-text" id="input-group-text">$</span>
-          <input type="text" class="form-control" id="validationTooltip05" name="Presupuesto" required>
-          <div class="invalid-tooltip">
-            Por favor ingrese un monto valido.
-          </div>
-        </div>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary botonsin" type="submit" onclick="mailto()">Enviar formulario</button>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary botonsin" onclick="volver()">
-          <i class="fa-solid fa-house" alt="volver"></i>
-        </button>
-      </div>
-    </form>
-  </section>
+      <div class="col-12 col-sm-5 p-0"> 
+          <section class="row justify-content-center form-destino m-0">
+            <form class="row g-3 needs-validation " novalidate>
+              <div class="col-md-12 m-0 p-0 mt-3" id="titulo-form">
+                <p id="form-tit">Reserve Hoy!</p>
+              </div>
+              <div class="col-md-12 position-relative my-0">
+                <label for="validationTooltip01" class="form-label">Nombre</label>
+                <input type="text" class="form-control h-50" id="validationTooltip01" required name="Nombre">
+                <div class="valid-tooltip">
+                  Excelente!
+                </div>
+              </div>
+              <div class="col-md-12 position-relative my-0">
+                <label for="validationTooltip02" class="form-label">Apellido</label>
+                <input type="text" class="form-control h-50" id="validationTooltip02" required name="Apellido">
+                <div class="valid-tooltip">
+                  Excelente!
+                </div>
+              </div>
+              <div class="col-md-12 position-relative my-0">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputEmail4">@</span>
+                  <input type="email" name="Email" class="form-control" id="inputEmail4" aria-describedby="inputEmail4" required>
+                  <div class="invalid-tooltip">
+                    Ingrese un email.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 position-relative my-0">
+                <label for="validationTooltip04" class="form-label">Ingrese el destino deseado</label>
+                <select class="form-select h-50" id="validationTooltip04" required name="Destino">
+                  <option selected disabled value="">...</option>
+                  <option>Buenos Aires</option>
+                  <option>Cordoba</option>
+                  <option>Santa Cruz</option>
+                  <option>Mendoza</option>
+                </select>
+                <div class="invalid-tooltip">
+                  Ingrese un destino valido.
+                </div>
+              </div>
+              <div class="col-md-12 position-relative my-1">
+                <label for="validationTooltip05" class="form-label">Ingrese su presupuesto</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="input-group-text">$</span>
+                  <input type="text" class="form-control" id="validationTooltip05" name="Presupuesto" required>
+                  <div class="invalid-tooltip">
+                    Por favor ingrese un monto valido.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 botones my-2 pb-1">
+                <button class="btn btn-secondary botonsin" type="submit" onclick="mailto()">Enviar formulario</button>
+                <button class="btn btn-secondary botonsin" onclick="volver()">
+                  <i class="fa-solid fa-house" alt="volver"></i>
+                </button>
+              </div>
+            </form>
+          </section>   
+      </div>   
+    </div>   
+  </div>
+
 </body>
   <script>
     (() => {
