@@ -199,14 +199,14 @@
 }
 
 .form-destino{  
-    color: #fffb;
+    color: #fffe;
     border-radius: 10px;
 }.form-destino form{
     height: 40vh;
 }
 .reserva-principal{
     background-color: rgb(50, 49, 49);
-    color: #fffb;
+    color: #fffe;
     border-radius: 10px;
     height: 90vh;
 }
