@@ -33,7 +33,9 @@ def register():
     if request.method == 'POST':
         username = request.form['username']
         password = generate_password_hash(request.form['password'], method='sha256')
-        new_user = User(username=username, password=password)
+        email = request.form['Email']
+        nacio = request.form['Nacionalidad']
+        new_user = User(username=username, password=password, email = email, nacionalidad = nacio)
         db.session.add(new_user)
         db.session.commit()
         return redirect(url_for('app_bp.login'))
