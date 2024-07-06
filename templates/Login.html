@@ -6,6 +6,7 @@
     <title>Login</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -14,14 +15,14 @@
                 <h2 class="text-center">Login</h2>
                 <form action="{{ url_for('login') }}" method="post">
                     <div class="form-group">
-                        <label for="username">Username</label>
+                        <label for="username">Usuario</label>
                         <input type="text" class="form-control" id="username" name="username" required>
                     </div>
                     <div class="form-group">
-                        <label for="password">Password</label>
+                        <label for="password">Contraseña</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
                     <p class="text-center">Si no estás registrado, presiona aquí:</p>
                 <a href="/templates/register.html" class="btn btn-secondary btn-block mb-3">Regístrate</a>
                 </form>
