@@ -198,6 +198,7 @@
     height: 2em;
 }
 
+
 .form-destino{  
     color: #fffe;
     border-radius: 10px;
@@ -249,6 +250,39 @@
     font-weight: bold;
 }
 
+.formu{
+    background-color: rgb(50, 49, 49);
+    border-radius: 10px;
+    color: #fffe;
+    padding: 40px;
+}
+.titulaso{
+    font-weight: bold;
+}
+.formu button:hover{
+    background-color: #fff;
+    border: 1px solid #0d9ad0;
+    color: #0d9ad0;
+    font-weight: bold;
+}
+.formu a:hover{
+    background-color: #fff;
+    border: 1px solid #0d9ad0;
+    color: #0d9ad0;
+    font-weight: bold;
+}
+.regi{
+    font-size: 0.65em;
+}
+
+
+
+.formulario-principal{
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
 @media screen and (max-width: 990px){
     .footer{
