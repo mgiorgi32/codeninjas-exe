@@ -1,0 +1,4 @@
+DROP SCHEMA IF EXISTS registro;
+CREATE SCHEMA registro;
+USE registro;
+SET AUTOCOMMIT=0;

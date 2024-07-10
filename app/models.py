@@ -5,4 +5,6 @@ class Usuario(db.Model):
     nombre = db.Column(db.String(50), nullable=False, unique=True)
     email = db.Column(db.String(120),  nullable=False)
     password = db.Column(db.String(12), nullable= False)
-    Nacionalidad = db.Column(db.String(50), nullable = False)
+    nacionalidad = db.Column(db.String(50), nullable = False)
+
+    
